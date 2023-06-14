@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
+  <main class="font-mono text-2xl font-bold p-2 top-0">
+    Welcome to the site
   </main>
 </template>
