@@ -19,7 +19,7 @@ const contactIcons = [
   },
   {
     name: 'ri-file-download-line',
-    link: 'public/Resume.pdf',
+    link: '/Resume.pdf',
     text: 'Resume',
   }
 ]
@@ -79,10 +79,10 @@ const enter = (el: Element, done: () => void) => {
         <section class="get-in-touch text-6xl font-mono w-full m-4">
           <h3 class="px-2 text-3xl pt-4 my-2 border-b-4 border-double border-cyan-600">Get in Touch</h3>
           <TransitionGroup appear tag="ul" @before-enter="beforeEnter" @enter="enter"
-            class="text-lg flex flex-row items-center justify-between">
+            class="text-lg flex flex-row items-center flex-wrap justify-between w-full">
             <li v-for="(icon, index) in contactIcons" :key="icon.name" :data-index="index"
-              class="list-none rounded-md bg-blue-100 w-1/5 h-12 flex flex-col justify-center py-12">
-              <a :href="icon.link" class="flex flex-col items-center justify-center">
+              class="list-none rounded-md bg-blue-100 md:w-1/5 w-2/5 h-12 flex flex-col justify-center py-12 m-4">
+              <a :href="icon.link" class="flex flex-col items-center justify-center ">
                 <i :class="icon.name" class="ri-2x mb-2"></i>
                 <div class="font-sans text-center text-lg">{{ icon.text }}</div>
               </a>

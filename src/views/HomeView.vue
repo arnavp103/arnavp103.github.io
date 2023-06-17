@@ -4,7 +4,7 @@
 <template>
 	<main class="h-full w-full overflow-x-hidden flex flex-col justify-center items-center">
 		<div class="w-content">
-			<h1 class="font-mono text-2xl md:text-4xl font-bold mt-4 inline-block text-center pl-1">
+			<h1 class="font-mono text-2xl md:text-4xl font-bold mt-4 inline-block text-center md:pl-1">
 				<span> What I've been up to</span>
 			</h1>
 			<div class="[&>*]:font-mono text-xl [&>*]:my-6">

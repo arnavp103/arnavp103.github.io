@@ -3,7 +3,7 @@ export const content = ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"];
 export const theme = {
 	extend: {
 		width: {
-			content: "65%"
+			content: "75%"
 		},
 		keyframes: {
 			wiggle: {
