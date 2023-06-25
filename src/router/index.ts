@@ -9,7 +9,7 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
       meta: {
-        title: 'Home - Arnav',
+        title: 'Home | Arnav',
       },
     },
     {
@@ -20,9 +20,13 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue'),
       meta: {
-        title: 'About - Arnav',
+        title: 'About | Arnav',
       },
-    }
+    },
+    {
+      path: "/:anything+",
+      redirect: "/"
+    },
   ]
 })
 
