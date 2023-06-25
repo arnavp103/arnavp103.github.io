@@ -4,23 +4,22 @@
 <template>
 	<main class="h-full w-full overflow-x-hidden flex flex-col justify-center items-center">
 		<div class="w-content">
-			<h1 class="font-mono text-2xl md:text-4xl font-bold mt-4 inline-block text-center md:pl-1">
+			<h1 class="text-xl md:text-5xl font-semibold mt-4 inline-block text-center md:pl-1">
 				<span> What I've been up to</span>
 			</h1>
-			<div class="[&>*]:font-mono text-xl [&>*]:my-6">
+			<div class="text-xl [&>*]:my-6">
 				<p>
 					I'm spending the summer with a group of friends building Obelisk. It's a blogging social media similar to Twitter and Medium but with a focus on exploring different subcultures and communities.
 					It's currently under wraps but we're interested in deploying it and seeing how it goes. It's been a great opportunity to learn about the full stack and how to build a web app from the ground up.
 				</p>
-				<p>
+
+        <p>
 					I picked up Chess as a hobby last year, and I'm really enjoying it.
 					I've got a Lichess Rapid Elo rating of 1400, and I'm hoping to get to 1600 by the end of summer.
 					The eventual goal is to get good enough to beat a rudimentary chess bot that brute forces the search space with a basic material advantage heuristic (also of my making).
 					<br/>
-					Current Opening Repertoire: Queen's Gambit, Catalan Opening, The London System, The Sicilian Defence,  Queen's Indian Defence
+					Current Opening Repertoire: The Queen's Gambit, The Catalan Opening, The London System, The Sicilian Defence, The Queen's Indian Defence
 				</p>
-
-
 
 				<p>
 					I'm taking a Machine Learning course this summer, where we explore popular machine learning algorithms and their applications.
